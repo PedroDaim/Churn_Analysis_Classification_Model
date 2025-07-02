@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.eggs/
+pip-log.txt
+pip-delete-this-arg.txt
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# Data and Models
+# It's common to ignore raw data if it's large or sensitive.
+# If your dataset is small and you want to version control it,
+# you can remove or comment out the relevant lines below.
+data/
+*.xlsx
+*.json
+
+# Saved Models
+*.pkl
+*.joblib
+
+# Project Outputs
+results/
+plots/
+reports/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
