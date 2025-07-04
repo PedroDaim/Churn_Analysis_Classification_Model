@@ -11,9 +11,9 @@ The project is structured into five distinct phases, ensuring a systematic appro
 
 **Phase 1: Data Acquisition and Initial Exploration**
 
-This phase focuses on understanding the raw data and extracting initial insights.
+**Understand the Tour & Travels Churn Dataset:** Load the dataset and gain a comprehensive understanding of its features (columns) and the target variable (the binary churn indicator).
 
-Understand the Telco Churn Dataset: Load the dataset and gain a comprehensive understanding of its features (columns) and the target variable (the binary churn indicator).
+**Dataset Source:** https://www.kaggle.com/datasets/tejashvi14/tour-travels-customer-churn-prediction/data
 
 **Initial Data Inspection:** Perform preliminary checks to identify missing values, verify data types, and compute basic descriptive statistics for all features.
 
@@ -25,7 +25,7 @@ This phase prepares the raw data for machine learning models.
 
 **Handling Missing Values:** Implement a strategy to address any missing data points. This may involve imputation techniques (e.g., mean, median, mode, or more sophisticated methods) or judicious removal of records/features.
 
-**Encoding Categorical Variables:** Convert non-numerical categorical features (e.g., 'Gender', 'Contract Type', 'Payment Method') into a numerical format that machine learning algorithms can process. Common techniques include One-Hot Encoding or Label Encoding.
+**Encoding Categorical Variables:** Convert non-numerical categorical features (e.g., 'Income',) into a numerical format that machine learning algorithms can process. Common techniques include One-Hot Encoding or Label Encoding.
 
 **Feature Scaling:** Standardize or normalize numerical features to ensure that all features contribute equally to the model, preventing features with larger scales from dominating the learning process.
 
